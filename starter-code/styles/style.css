@@ -5,12 +5,19 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 .container{
     font-family: 'Manrope', sans-serif;
 }
-.bottom{
+.bottom , .navbar{
     background-color:   #24053e;
+    padding: 2%;
+}
+.bottomb{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .link{
     color:White;
@@ -25,9 +32,35 @@ body{
 }
 .header{
     color:white;
+    text-align: center;
+    font-size: 4em;
+    font-family: "Fraunces",sans-serif;
+    font-weight: 100;
 }
 .tailored{
     color: white;
     text-decoration-color: aqua;
 
+}
+.learn{
+    background-color: aquamarine;
+    width: 150px;
+    height: 50px;
+    border:none;
+
+}
+.learn:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.pattern-1{
+    position: absolute;
+    top: 20%;
+    left: -140px;
+
+}
+.pattern-2{
+    position:absolute;
+    top: 30%;
+    right: -5%;
 }
