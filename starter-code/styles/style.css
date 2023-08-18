@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Manrope', sans-serif;
+}
+.bottom{
+    background-color:   #24053e;
+}
+.link{
+    color:White;
+    text-decoration-color: aqua;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+.header{
+    color:white;
+}
+.tailored{
+    color: white;
+    text-decoration-color: aqua;
+
+}
